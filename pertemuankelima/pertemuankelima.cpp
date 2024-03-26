@@ -34,9 +34,26 @@ int pembagian(int a, int b)
 {
     return a / b;
 }
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    int pilihan;
+    do
+    {
+        cout << " kalkulator sederhana" << endl;
+        cout << "======================" << endl;
+        cout << " 1. penjumlahan " << endl;
+        cout << " 2. pengurangan " << endl;
+        cout << " 3. perkalian" << endl;
+        cout << "4. pembagian" << endl;
+        cout << "5. keluar " << endl;
+        cout << "===============" << endl;
+        cout << "masukan menu pilihan" << endl;
+        cout << pilihan;
+
+
+
+    }
 }
 
 
