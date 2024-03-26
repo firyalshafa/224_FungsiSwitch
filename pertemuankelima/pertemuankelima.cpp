@@ -64,15 +64,19 @@ int main()
                 break;
 
             case 3 :
-                inputdata()
+                inputdata();
                 cout << "hasil perkalian = " << perkalian(bilangan1, bilangan2) << endl;
                 break;
 
             case 4:
-                inputdata()
+                inputdata();
                     cout << "hasil pembagian = " << pembagian(bilangan1, bilangan2) << endl;
                 break;
 
+            case 5: 
+                break;
+
+                
 
                
 
