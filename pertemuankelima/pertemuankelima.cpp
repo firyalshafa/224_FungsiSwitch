@@ -49,7 +49,7 @@ int main()
         cout << "5. keluar " << endl;
         cout << "===============" << endl;
         cout << "masukan menu pilihan" << endl;
-        cout << pilihan;
+        cin >> pilihan;
 
         switch (pilihan)
         {
@@ -82,7 +82,15 @@ int main()
 
         }
 
+        system("pause");
+        system("CLS");
+
     }
+
+
+    while (pilihan != 5);
+
+    
 }
 
 
