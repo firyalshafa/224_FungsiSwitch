@@ -15,6 +15,11 @@ void inputdata()
 
 }
 
+int penjumlahan(int a, int b)
+{
+    return a + b;
+}
+
 
 int main()
 {
